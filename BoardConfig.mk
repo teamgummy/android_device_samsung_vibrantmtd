@@ -17,6 +17,9 @@
 # Product-specific compile-time definitions.
 #
 
+# Inline kernel source
+TARGET_KERNEL_CONFIG := cyanogenmod_vibrantmtd_defconfig
+
 #Prebuilt Kernel
 TARGET_PREBUILT_KERNEL := device/samsung/vibrantmtd/kernel
 
